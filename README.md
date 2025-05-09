@@ -32,7 +32,7 @@ src/main/java/com/kosmos/consultorios_medicos
 ```
 
 ## 📌 Endpoints disponibles
-#### (**Doctor**)
+### (**Doctor**)
 | Método | Ruta                 | Descripción              |
 | ------ | -------------------- | ------------------------ |
 | GET    | `/api/doctores`      | Lista todos los doctores |
