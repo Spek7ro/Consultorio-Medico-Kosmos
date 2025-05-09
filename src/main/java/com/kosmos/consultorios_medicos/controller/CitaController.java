@@ -78,6 +78,15 @@ public class CitaController {
         return ResponseEntity.ok("Cita eliminada.");
     }
 
-
+    @Operation(summary = "Consultar citas por filtros: fecha, doctorId y/o consultorioId")
+    @GetMapping("/buscar")
+    public ResponseEntity<List<Cita>> buscarCitas(
+            @RequestParam @DateTimeFormat(pattern = "yyyy-MM-dd") Date fecha,
+            @RequestParam(required = false) Long doctorId,
+            @RequestParam(required = false) Long consultorioId
+    ) {
+        List<Cita> citas = citaService.buscarPorFechaDoctorYConsultorio(fecha, doctorId, consultorioId);
+        return ResponseEntity.ok(citas);
+    }
 
 }

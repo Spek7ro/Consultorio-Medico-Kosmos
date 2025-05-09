@@ -122,4 +122,16 @@ public class CitaService {
         cal.set(Calendar.MILLISECOND, 999);
         return cal.getTime();
     }
+
+    // Consultar citas por fecha, doctor y consultorio
+    public List<Cita> buscarPorFechaDoctorYConsultorio(Date fecha, Long doctorId, Long consultorioId) {
+        Date inicioDia = getInicioDelDia(fecha);
+        Date finDia = getFinDelDia(fecha);
+        List<Cita> citas = citaRepository.findByHorarioBetween(inicioDia, finDia);
+
+        return citas.stream()
+                .filter(c -> (doctorId == null || c.getDoctor().getId().equals(doctorId)) &&
+                        (consultorioId == null || c.getConsultorio().getId().equals(consultorioId)))
+                .toList();
+    }
 }
