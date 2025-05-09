@@ -66,5 +66,12 @@ src/main/java/com/kosmos/consultorios_medicos
 | DELETE     | `/api/citas/{id}`          | Elimina una cita por ID                                       |
 | GET        | `/api/citas/buscar`        | Consulta citas por filtros: fecha, doctorId y consultorioId   |
 
+## 💻🕵️ Testing 
+#### Se realizaron pruebas en Swagger y Postman
+![image](https://github.com/user-attachments/assets/e67c6645-e0a8-40ca-bb0e-adc77582a456)
+
+![image](https://github.com/user-attachments/assets/f71cd7ea-39ef-4eb4-a807-5b10f5a14a17)
+
+![image](https://github.com/user-attachments/assets/09953ce6-33ca-4047-a637-181252c20dbf)
 
 
