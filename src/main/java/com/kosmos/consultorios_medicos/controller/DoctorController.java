@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/doctors")
-@CrossOrigin(origins = "*") 
+@CrossOrigin(origins = "*")
 public class DoctorController {
 
     @Autowired
@@ -53,5 +53,4 @@ public class DoctorController {
         doctorService.eliminar(id);
         return ResponseEntity.ok("Doctor eliminado con éxito.");
     }
-
 }
