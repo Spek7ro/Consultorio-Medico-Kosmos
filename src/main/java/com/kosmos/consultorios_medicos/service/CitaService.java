@@ -61,6 +61,11 @@ public class CitaService {
         return citaRepository.save(nuevaCita);
     }
 
+    // Obtener citas por fechas
+    public List<Cita> obtenerCitasPorFecha(Date fecha) {
+        return citaRepository.findByHorarioBetween(getInicioDelDia(fecha), getFinDelDia(fecha));
+    }
+
     // Cancelar cita
     public void cancelarCita(Long id) {
         citaRepository.findById(id).ifPresent(cita -> {
