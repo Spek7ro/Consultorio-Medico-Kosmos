@@ -1,6 +1,6 @@
 package com.kosmos.consultorios_medicos.service;
 
-import com.kosmos.consultorios_medicos.models.Doctor;
+import com.kosmos.consultorios_medicos.model.Doctor;
 import com.kosmos.consultorios_medicos.repository.DoctorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

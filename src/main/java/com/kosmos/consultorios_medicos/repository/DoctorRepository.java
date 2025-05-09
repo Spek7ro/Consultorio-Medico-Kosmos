@@ -1,6 +1,6 @@
 package com.kosmos.consultorios_medicos.repository;
 
-import com.kosmos.consultorios_medicos.models.Doctor;
+import com.kosmos.consultorios_medicos.model.Doctor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

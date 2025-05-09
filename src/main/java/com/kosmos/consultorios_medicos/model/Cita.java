@@ -1,4 +1,4 @@
-package com.kosmos.consultorios_medicos.models;
+package com.kosmos.consultorios_medicos.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.kosmos.consultorios_medicos.models;
+package com.kosmos.consultorios_medicos.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.List;
 
 @Entity
-@Table(name = "doctors")
+@Table(name = "doctores")
 @Data
 public class Doctor {
 

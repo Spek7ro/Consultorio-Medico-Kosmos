@@ -1,6 +1,6 @@
 package com.kosmos.consultorios_medicos.controller;
 
-import com.kosmos.consultorios_medicos.models.Doctor;
+import com.kosmos.consultorios_medicos.model.Doctor;
 import com.kosmos.consultorios_medicos.service.DoctorService;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
