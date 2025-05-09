@@ -14,7 +14,7 @@
 ## 📁 Estructura del proyecto
 ```
 src/main/java/com/kosmos/consultorios_medicos
-├── ConsultorioApplication.java
+├── ConsultoriosMedicosApplication.java
 ├── controller/
 │   └── CitaController.java
 │   └── DoctorController.java
