@@ -26,7 +26,7 @@ public class Cita {
     private String nombrePaciente;
 
     @Column(name = "estado_cita", nullable = false)
-    private boolean cancelada;
+    private boolean estadoCita;
 
     @ManyToOne
     @JoinColumn(name = "doctor_id")
