@@ -25,4 +25,17 @@ src/main/java/com/kosmos/consultorios_medicos
 │   └── ConsultorioRepository.java
 └── service/
     └── CitaService.java
-``` 
+```
+
+## 📌 Endpoints disponibles
+#### (Doctor)
+| Método | Ruta                 | Descripción              |
+| ------ | -------------------- | ------------------------ |
+| GET    | `/api/doctores`      | Lista todos los doctores |
+| GET    | `/api/doctores/{id}` | Obtiene uno por ID       |
+| POST   | `/api/doctores`      | Crea nuevo doctor        |
+| PUT    | `/api/doctores/{id}` | Actualiza doctor         |
+| DELETE | `/api/doctores/{id}` | Elimina doctor           |
+
+
+
