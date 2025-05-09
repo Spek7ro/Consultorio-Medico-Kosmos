@@ -32,7 +32,7 @@ src/main/java/com/kosmos/consultorios_medicos
 ```
 
 ## 📌 Endpoints disponibles
-#### (Doctor)
+#### (**Doctor**)
 | Método | Ruta                 | Descripción              |
 | ------ | -------------------- | ------------------------ |
 | GET    | `/api/doctores`      | Lista todos los doctores |
@@ -41,5 +41,13 @@ src/main/java/com/kosmos/consultorios_medicos
 | PUT    | `/api/doctores/{id}` | Actualiza doctor         |
 | DELETE | `/api/doctores/{id}` | Elimina doctor           |
 
+### (**Consultorio**)
+| Método | Ruta                     | Descripción                  |
+| ------ | ------------------------ | ---------------------------- |
+| GET    | `/api/consultorios`      | Lista todos los consultorios |
+| GET    | `/api/consultorios/{id}` | Consultorio por ID           |
+| POST   | `/api/consultorios`      | Crear nuevo consultorio      |
+| PUT    | `/api/consultorios/{id}` | Actualizar consultorio       |
+| DELETE | `/api/consultorios/{id}` | Eliminar consultorio         |
 
 
