@@ -7,6 +7,7 @@
 - Spring Boot 3.x 
 - Maven
 - H2 (Base de datos para pruebas)
+- Hibernate JPA
 - Swagger
 
 ## 📁 Estructura del proyecto
