@@ -15,6 +15,8 @@ src/main/java/com/kosmos/consultorios_medicos
 ├── ConsultorioApplication.java
 ├── controller/
 │   └── CitaController.java
+│   └── DoctorController.java
+│   └── ConsultorioController.java
 ├── model/
 │   ├── Cita.java
 │   ├── Doctor.java
@@ -25,6 +27,8 @@ src/main/java/com/kosmos/consultorios_medicos
 │   └── ConsultorioRepository.java
 └── service/
     └── CitaService.java
+    └── DoctorService.java
+    └── ConsultorioService.java
 ```
 
 ## 📌 Endpoints disponibles
