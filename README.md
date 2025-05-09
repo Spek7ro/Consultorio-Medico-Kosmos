@@ -9,6 +9,7 @@
 - H2 (Base de datos para pruebas)
 - Hibernate JPA
 - Swagger
+- Postman
 
 ## 📁 Estructura del proyecto
 ```
@@ -31,6 +32,8 @@ src/main/java/com/kosmos/consultorios_medicos
     └── DoctorService.java
     └── ConsultorioService.java
 ```
+## 🧑‍💻 Diagrama Entidad-Relación
+![image](https://github.com/user-attachments/assets/1e268863-602b-4433-8f91-a3ffc5588bbe)
 
 ## 📌 Endpoints disponibles
 ### (**Doctor**)
@@ -50,5 +53,18 @@ src/main/java/com/kosmos/consultorios_medicos
 | POST   | `/api/consultorios`      | Crear nuevo consultorio      |
 | PUT    | `/api/consultorios/{id}` | Actualizar consultorio       |
 | DELETE | `/api/consultorios/{id}` | Eliminar consultorio         |
+
+### (**Cita**)
+| **Método** | **Ruta**                   | **Descripción**                                               |
+| ---------- | -------------------------- | ------------------------------------------------------------- |
+| GET        | `/api/citas`               | Lista todas las citas                                         |
+| POST       | `/api/citas`               | Agenda una nueva cita                                         |
+| GET        | `/api/citas/{id}`          | Obtiene una cita por ID                                       |
+| GET        | `/api/citas/fecha`         | Consulta citas por fecha (yyyy-MM-dd)                         |
+| PUT        | `/api/citas/{id}`          | Actualiza una cita por ID                                     |
+| PUT        | `/api/citas/{id}/cancelar` | Cancela una cita pendiente por ID                             |
+| DELETE     | `/api/citas/{id}`          | Elimina una cita por ID                                       |
+| GET        | `/api/citas/buscar`        | Consulta citas por filtros: fecha, doctorId y consultorioId   |
+
 
 
