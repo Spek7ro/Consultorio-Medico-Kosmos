@@ -6,7 +6,7 @@
 - Java
 - Spring Boot 3.x 
 - Maven
-- MySQL
+- H2 (Base de datos para pruebas)
 - Swagger
 
 ## 📁 Estructura del proyecto
