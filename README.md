@@ -74,4 +74,8 @@ src/main/java/com/kosmos/consultorios_medicos
 
 ![image](https://github.com/user-attachments/assets/09953ce6-33ca-4047-a637-181252c20dbf)
 
+## 🧑‍⚕️Mockup UI App 
+#### No se termino la parte del FrontEnd de la app 
+![image](https://github.com/user-attachments/assets/c2b57165-1a46-4b2e-8311-5a8e029c9e04)
+
 
